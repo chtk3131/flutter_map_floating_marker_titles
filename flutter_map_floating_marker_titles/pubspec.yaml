@@ -4,7 +4,7 @@ version: 0.0.6
 repository: https://github.com/androidseb/flutter_map_floating_marker_titles
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: ">=2.16.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -12,7 +12,9 @@ dependencies:
 
   latlong2: ^0.8.1
 
-  flutter_floating_map_marker_titles_core: ^0.0.6
+  flutter_floating_map_marker_titles_core:
+    git:
+      url: https://github.com/chtk3131/flutter_map_floating_marker_titles.git
   # Uncomment and use this a dependency when working locally
   #flutter_floating_map_marker_titles_core:
   #  path: ../flutter_floating_map_marker_titles_core
